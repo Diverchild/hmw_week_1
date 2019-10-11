@@ -3,31 +3,37 @@
     <head>
       <meta charset="UTF-8"/>
       <title>Student Bio</title> 
-      <link type="text/css" href="/assests/css/style.css">  
+      <link rel="stylesheet" type="text/css" href="assests/css/style.css">  
     </head>
     <body>
-       <div class="about_head">
-           <header>
-                <h1>Alex Happe</h1>
-                <a id="about" href="index.html">About</a> 
-                <a id="portfolio" href="portfolio.html">Portfolio</a>
-                <a id="contact" href="contact.html">contact</a>
-           </header>
-       </div>
-       <div>
-           <form class="form">
-               Name:<br>
-               <input id="name" type="text" name="name" value="John Doe"><br>
-               Email:<br>
-               <input id="email" type="text" name="email" value="example@gmail.com"><br>
-               Message:<br>
-               <input id="message" type="text" name="message"><br><br>
-               <input id="submit" type="submit" name="Submit">
-           </form>
-       </div>
+      <div class="container">
+            <div class="container2">
+                 <header>
+                    <h1 id="head">Alex Happe</h1>
+                    <div class="links">
+                        <a id="about" href="index.html">About</a> 
+                        <a id="portfolio" href="portfolio.html">Portfolio</a>
+                        <a id="contact" href="contact.html">Contact</a>
+                    </div>
+                </header>
+            </div>
+            <div class="about_body">
+                <h1 id="about_me">Contact</h1>
+                <form class="form">
+                     Name:<br>
+                    <input id="name" type="text" name="name" value="John Doe"><br>
+                     Email:<br>
+                    <input id="email" type="text" name="email" value="example@gmail.com"><br>
+                     Message:<br>
+                    <input id="message" type="text" name="message"><br><br>
+                    <input id="submit" type="submit" name="Submit">
+                </form>
+            </div>
+      </div>
        <div>
             <footer>
                 <p>Copyright</p>
             </footer>
         </div>
     </body>
+</html>
