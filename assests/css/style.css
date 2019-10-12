@@ -3,9 +3,10 @@
     margin: 0;
     border: 0;
 }
+
 .about_body {
     border: 1px solid #dddddd;
-	width: 950px;
+	width: 960px;
     margin: auto;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -13,7 +14,7 @@
     top: 120px;
     padding-bottom: 100px;
     line-height: 1.5;
-    color: #777777
+    color: #777777;
   
 }
 
@@ -42,6 +43,7 @@ header {
     margin-top: 20px;
     text-decoration: none;
     color: grey;
+    
 }
 
 #portfolio {
@@ -66,6 +68,8 @@ header {
     margin-right: 16.8%;
     text-decoration: none; color: gray;
     z-index: 10000;
+    position: relative;
+    z-index: 1000;
 }
 
 #my_image {
@@ -83,7 +87,7 @@ footer {
     text-align: center;
     color: white;
     border-top: 10px solid #4aaaa5;
-    padding: 25px;
+    padding-top: 40px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -111,6 +115,11 @@ body {
     margin-left: 15px;
     margin-right: 10px;
     border: 2px solid grey;
+    background-color: white;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 #rpg {
@@ -120,6 +129,8 @@ body {
     margin-left: 15px;
     margin-right: 10px;
     border: 2px solid grey;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 #trivia {
@@ -129,6 +140,13 @@ body {
     margin-left: 15px;
     margin-right: 10px;
     border: 2px solid grey;
+    background-color: white;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    margin-bottom: 10px;
+    position: relative;
+    top: 275px;
+    left: -628px;
 
 }
 
@@ -139,6 +157,10 @@ body {
     margin-left: 15px;
     margin-right: 10px;
     border: 2px solid grey;
+    margin-bottom: 10px;
+    position: relative;
+    right: 314px;
+    top: 27px
 }
 
 #rps {
@@ -148,6 +170,10 @@ body {
     margin-left: 15px;
     margin-right: 10px;
     border: 2px solid grey;
+    margin-bottom: 10px;
+    position: relative;
+    top: 80px;
+    overflow: scroll
 }
 
 .form {
@@ -184,6 +210,28 @@ body {
     width: 97%;
     padding-bottom: 75px
 }
+.about_me_container {
+    border: 1px solid #dddddd;
+	width: 950px;
+    margin-top: 1in;
+    margin-bottom: 2in;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: relative;
+    top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 750px;
+    line-height: 1.5;
+    color: #777777;
+    margin-bottom: 1px
+  }
+
+  .port_footer {
+      position: relative;
+      top: 100px;
+      overflow: scroll;
+  }
 
 
 
